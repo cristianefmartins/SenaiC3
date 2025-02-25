@@ -1,0 +1,14 @@
+C:\Users\Fic\source\repos\MediaAproveitamento\bin\Debug\net9.0\MediaAproveitamento.exe
+C:\Users\Fic\source\repos\MediaAproveitamento\bin\Debug\net9.0\MediaAproveitamento.deps.json
+C:\Users\Fic\source\repos\MediaAproveitamento\bin\Debug\net9.0\MediaAproveitamento.runtimeconfig.json
+C:\Users\Fic\source\repos\MediaAproveitamento\bin\Debug\net9.0\MediaAproveitamento.dll
+C:\Users\Fic\source\repos\MediaAproveitamento\bin\Debug\net9.0\MediaAproveitamento.pdb
+C:\Users\Fic\source\repos\MediaAproveitamento\obj\Debug\net9.0\MediaAproveitamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fic\source\repos\MediaAproveitamento\obj\Debug\net9.0\MediaAproveitamento.AssemblyInfoInputs.cache
+C:\Users\Fic\source\repos\MediaAproveitamento\obj\Debug\net9.0\MediaAproveitamento.AssemblyInfo.cs
+C:\Users\Fic\source\repos\MediaAproveitamento\obj\Debug\net9.0\MediaAproveitamento.csproj.CoreCompileInputs.cache
+C:\Users\Fic\source\repos\MediaAproveitamento\obj\Debug\net9.0\MediaAproveitamento.dll
+C:\Users\Fic\source\repos\MediaAproveitamento\obj\Debug\net9.0\refint\MediaAproveitamento.dll
+C:\Users\Fic\source\repos\MediaAproveitamento\obj\Debug\net9.0\MediaAproveitamento.pdb
+C:\Users\Fic\source\repos\MediaAproveitamento\obj\Debug\net9.0\MediaAproveitamento.genruntimeconfig.cache
+C:\Users\Fic\source\repos\MediaAproveitamento\obj\Debug\net9.0\ref\MediaAproveitamento.dll

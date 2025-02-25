@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fic\\Desktop\\Cris\\repos\\07-02-2025\\Exercicios_07-02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5CF1F06-75D7-4B13-BC85-DE68C838950E}|Exercicios_07-02.csproj|c:\\users\\fic\\desktop\\cris\\repos\\07-02-2025\\exercicios_07-02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CF1F06-75D7-4B13-BC85-DE68C838950E}|Exercicios_07-02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Desktop\\Cris\\repos\\07-02-2025\\Exercicios_07-02\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Fic\\Desktop\\Cris\\repos\\07-02-2025\\Exercicios_07-02\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAD4v4UAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:27:22.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\Fic\source\repos\ProjetoCelular\bin\Debug\net9.0\ProjetoCelular.exe
+C:\Users\Fic\source\repos\ProjetoCelular\bin\Debug\net9.0\ProjetoCelular.deps.json
+C:\Users\Fic\source\repos\ProjetoCelular\bin\Debug\net9.0\ProjetoCelular.runtimeconfig.json
+C:\Users\Fic\source\repos\ProjetoCelular\bin\Debug\net9.0\ProjetoCelular.dll
+C:\Users\Fic\source\repos\ProjetoCelular\bin\Debug\net9.0\ProjetoCelular.pdb
+C:\Users\Fic\source\repos\ProjetoCelular\obj\Debug\net9.0\ProjetoCelular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fic\source\repos\ProjetoCelular\obj\Debug\net9.0\ProjetoCelular.AssemblyInfoInputs.cache
+C:\Users\Fic\source\repos\ProjetoCelular\obj\Debug\net9.0\ProjetoCelular.AssemblyInfo.cs
+C:\Users\Fic\source\repos\ProjetoCelular\obj\Debug\net9.0\ProjetoCelular.csproj.CoreCompileInputs.cache
+C:\Users\Fic\source\repos\ProjetoCelular\obj\Debug\net9.0\ProjetoCelular.dll
+C:\Users\Fic\source\repos\ProjetoCelular\obj\Debug\net9.0\refint\ProjetoCelular.dll
+C:\Users\Fic\source\repos\ProjetoCelular\obj\Debug\net9.0\ProjetoCelular.pdb
+C:\Users\Fic\source\repos\ProjetoCelular\obj\Debug\net9.0\ProjetoCelular.genruntimeconfig.cache
+C:\Users\Fic\source\repos\ProjetoCelular\obj\Debug\net9.0\ref\ProjetoCelular.dll

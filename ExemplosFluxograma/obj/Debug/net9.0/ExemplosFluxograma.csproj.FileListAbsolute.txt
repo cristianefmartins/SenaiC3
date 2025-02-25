@@ -1,0 +1,14 @@
+C:\Users\Fic\source\repos\ExemplosFluxograma\bin\Debug\net9.0\ExemplosFluxograma.exe
+C:\Users\Fic\source\repos\ExemplosFluxograma\bin\Debug\net9.0\ExemplosFluxograma.deps.json
+C:\Users\Fic\source\repos\ExemplosFluxograma\bin\Debug\net9.0\ExemplosFluxograma.runtimeconfig.json
+C:\Users\Fic\source\repos\ExemplosFluxograma\bin\Debug\net9.0\ExemplosFluxograma.dll
+C:\Users\Fic\source\repos\ExemplosFluxograma\bin\Debug\net9.0\ExemplosFluxograma.pdb
+C:\Users\Fic\source\repos\ExemplosFluxograma\obj\Debug\net9.0\ExemplosFluxograma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fic\source\repos\ExemplosFluxograma\obj\Debug\net9.0\ExemplosFluxograma.AssemblyInfoInputs.cache
+C:\Users\Fic\source\repos\ExemplosFluxograma\obj\Debug\net9.0\ExemplosFluxograma.AssemblyInfo.cs
+C:\Users\Fic\source\repos\ExemplosFluxograma\obj\Debug\net9.0\ExemplosFluxograma.csproj.CoreCompileInputs.cache
+C:\Users\Fic\source\repos\ExemplosFluxograma\obj\Debug\net9.0\ExemplosFluxograma.dll
+C:\Users\Fic\source\repos\ExemplosFluxograma\obj\Debug\net9.0\refint\ExemplosFluxograma.dll
+C:\Users\Fic\source\repos\ExemplosFluxograma\obj\Debug\net9.0\ExemplosFluxograma.pdb
+C:\Users\Fic\source\repos\ExemplosFluxograma\obj\Debug\net9.0\ExemplosFluxograma.genruntimeconfig.cache
+C:\Users\Fic\source\repos\ExemplosFluxograma\obj\Debug\net9.0\ref\ExemplosFluxograma.dll

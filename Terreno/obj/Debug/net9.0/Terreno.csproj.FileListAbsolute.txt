@@ -1,0 +1,14 @@
+C:\Users\Fic\source\repos\Terreno\bin\Debug\net9.0\Terreno.exe
+C:\Users\Fic\source\repos\Terreno\bin\Debug\net9.0\Terreno.deps.json
+C:\Users\Fic\source\repos\Terreno\bin\Debug\net9.0\Terreno.runtimeconfig.json
+C:\Users\Fic\source\repos\Terreno\bin\Debug\net9.0\Terreno.dll
+C:\Users\Fic\source\repos\Terreno\bin\Debug\net9.0\Terreno.pdb
+C:\Users\Fic\source\repos\Terreno\obj\Debug\net9.0\Terreno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fic\source\repos\Terreno\obj\Debug\net9.0\Terreno.AssemblyInfoInputs.cache
+C:\Users\Fic\source\repos\Terreno\obj\Debug\net9.0\Terreno.AssemblyInfo.cs
+C:\Users\Fic\source\repos\Terreno\obj\Debug\net9.0\Terreno.csproj.CoreCompileInputs.cache
+C:\Users\Fic\source\repos\Terreno\obj\Debug\net9.0\Terreno.dll
+C:\Users\Fic\source\repos\Terreno\obj\Debug\net9.0\refint\Terreno.dll
+C:\Users\Fic\source\repos\Terreno\obj\Debug\net9.0\Terreno.pdb
+C:\Users\Fic\source\repos\Terreno\obj\Debug\net9.0\Terreno.genruntimeconfig.cache
+C:\Users\Fic\source\repos\Terreno\obj\Debug\net9.0\ref\Terreno.dll

@@ -1,0 +1,14 @@
+C:\Users\Fic\source\repos\EstruturasRepeticao\obj\Debug\net9.0\EstruturasRepeticao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fic\source\repos\EstruturasRepeticao\obj\Debug\net9.0\EstruturasRepeticao.AssemblyInfoInputs.cache
+C:\Users\Fic\source\repos\EstruturasRepeticao\obj\Debug\net9.0\EstruturasRepeticao.AssemblyInfo.cs
+C:\Users\Fic\source\repos\EstruturasRepeticao\obj\Debug\net9.0\EstruturasRepeticao.csproj.CoreCompileInputs.cache
+C:\Users\Fic\source\repos\EstruturasRepeticao\bin\Debug\net9.0\EstruturasRepeticao.exe
+C:\Users\Fic\source\repos\EstruturasRepeticao\bin\Debug\net9.0\EstruturasRepeticao.deps.json
+C:\Users\Fic\source\repos\EstruturasRepeticao\bin\Debug\net9.0\EstruturasRepeticao.runtimeconfig.json
+C:\Users\Fic\source\repos\EstruturasRepeticao\bin\Debug\net9.0\EstruturasRepeticao.dll
+C:\Users\Fic\source\repos\EstruturasRepeticao\bin\Debug\net9.0\EstruturasRepeticao.pdb
+C:\Users\Fic\source\repos\EstruturasRepeticao\obj\Debug\net9.0\EstruturasRepeticao.dll
+C:\Users\Fic\source\repos\EstruturasRepeticao\obj\Debug\net9.0\refint\EstruturasRepeticao.dll
+C:\Users\Fic\source\repos\EstruturasRepeticao\obj\Debug\net9.0\EstruturasRepeticao.pdb
+C:\Users\Fic\source\repos\EstruturasRepeticao\obj\Debug\net9.0\EstruturasRepeticao.genruntimeconfig.cache
+C:\Users\Fic\source\repos\EstruturasRepeticao\obj\Debug\net9.0\ref\EstruturasRepeticao.dll

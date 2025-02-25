@@ -1,0 +1,201 @@
+
+
+Draw.io = online
+
+Jogos
+
+
+git checkout -b NOME-DA-NOVA-BRANCH criar uma branch
+git status
+git add .
+git commit -m "comentario"
+git push origin NOME-DA-BRANCH
+
+
+Utilizar o git pelo visual studio
+Confirmar ou fazer stash = commit 
+set pra cima = faz o push pro github
+
+
+CTRL + D copia uma linha igual em baixo
+
+
+=============== [03/02/2024 segunda] ===============
+
+Programa = conjunto instruções, entrada, processamento, saída
+
+https://dontpad.com/senai-c#
+
+https://studio.code.org/hoc/1
+
+https://studio.code.org/s/hero/lessons/1/levels/1
+
+
+
+=============== [04/02/2024 terca] ===============
+
+1	- Faça um algoritmo em FLUXOGRAMA para ler as dimensões de um terreno retangular e depois exibir a área do terreno.
+
+2	- Faça um algoritmo em FLUXOGRAMA para ler a idade de uma pessoa, e exibir quantos dias de vida ela possui. Considere sempre anos completos, e que um ano possui 365 dias.
+
+3	- Faça um algoritmo em FLUXOGRAMA que leia a idade de uma pessoa e exiba em dias e meses.
+
+4	- Faça um algoritmo em FLUXOGRAMA que leia as 3 notas de um aluno e calcule a média final deste aluno.
+
+5	- Elabore um algoritmo em FLUXOGRAMA que dada a média de um aluno emita a mensagem "APROVADO" se a média for maior ou igual a 5 e "REPROVADO" se a média for menor que 5.
+
+6	- Elabore um algoritmo em FLUXOGRAMA que dada a média de um aluno imprima um conceito conforme a tabela abaixo:
+
+Média de Aproveitamento	Conceito
+9,0	A
+7,5 e < 9,0	B
+6,0 e < 7,5	C
+abaixo de 6	Reprovado
+ 
+
+EXTRAS – 
+
+- Elabore um algoritmo em FLUXOGRAMA que leia diversos valores numéricos digitados e para cada um imprima a mensagem “valor válido” até que digite 0 (zero).
+
+- Escreva um algoritmo em FLUXOGRAMA para ler 10 números e ao final da leitura escrever a soma total dos 10 números lidos.
+
+
+Material Consulta:
+https://drive.google.com/file/d/1_4M-L8Et8IZ0AseVvXwKZgLYl6OChLcs/view?usp=sharing
+
+https://www.macoratti.net/13/09/net_pcod1.htm
+
+Balta
+
+
+
+=============== [05/02/2024 quarta] ===============
+
+https://drive.google.com/file/d/10flfVfsfiaBxdGMLVBzoGqz1iR9WgvUA/view?usp=sharing
+
+//Estrutura condicional simples
+bol sol 
+
+
+
+
+=============== [06/02/2024 quinta] ===============
+
+https://drive.google.com/file/d/1mU4pOFni1A3bav7fUMyqw6WfB5FMTEZT/view?usp=sharing
+
+https://github.com/Viniart/Exercicios-C-.git
+
+CTRL K / CTRL C comentar um bloco 
+
+OU
+
+/*
+ XXXXX
+*/
+
+
+=============== [07/02/2024 sexta] ===============
+
+
+https://www.notion.so/Dicion-rio-do-Programador-C-193d3bad672380aa917fd003ad6a608b?showMoveTo=true
+
+https://creative-panama-350.notion.site/Git-GitHub-193d3bad672380989519c91e77b8ec72
+
+
+Atividades:
+https://www.notion.so/Exerc-cios-C-193d3bad67238091bc2cdb12d63a20ff
+
+
+digitar CultureInfo, vai ficar branco, dar um CTRL + . e o framework sugere algumas opções pra correção do problema
+escolher aplicar, ele adiciona a linha using System.Globalization; no começo do programa 
+--> ignora a cultura do pais e sempre considera números com ponto, e.g se o usuário digitar 1,60 (padrão brasil) o sistema
+não vai mudar pra 160 vai mudar pra 1.60
+
+
+ESTRUTURA DE REPETICAO
+- While (boolean) = enquanto, executa o parêntesis e faz o que ta dentro do {}
+- Do / Whilee (boolean) = faz uma acao e depois faz a condicao
+- For = para 
+
+
+! eh sinal de negação, oposto e.g while (!acertou); eh o mesmo que while (acertou == false);
+
+
+=============== [10/02/2024 segunda] ===============
+FALTEI.... aula de array
+
+=============== [11/02/2024 terca] ===============
+
+
+=============== [12/02/2024 quarta] ===============
+
+static significa que não queremos usar Orientação a objetos, a gente ta usando pq estamos criando tudo em um único arquivo
+
+
+=============== [13/02/2024 quinta] ===============
+
+
+//modularizar o sistema = criar funções
+  break;  //indica quando o caso termina
+
+
+menu compilação > publicar seleção
+
+selecionar arquivo unico
+
+=============== [14/02/2024 sexta] ===============
+
+POO
+
+{
+    public class Pessoa
+    {
+        //atributos da classe
+        public string nome;
+        public int idade;
+
+        //metodos da classe
+        public void ExibirInformacoes()
+        {
+            //Console eh a classe e o WriteLine eh o metodo
+            //static - vinculo `a classe e nao ao objeto
+            Console.WriteLine($"Nome: {nome}, idade: {idade}");
+        }
+    }
+}
+
+
+
+
+=============== [17/02/2024 segunda] ===============
+
+
+=============== [18/02/2024 terca] ===============
+Jogos
+
+* Engine (Design) = [e.g Unity (C#), Unreal engine] - ferramenta que já tem muitas coisas de jogo prontas. Não necessariamente precisa saber codar, mas eh recomendável saber, entra aspectos de DESIGN
+* Framework = [e.g MonoGame (C#)] - trabalha no nível de código... VAMOS TRABALHAR AQUI
+* Criar uma engine = bem especifico, cria tudo do zero, times grandes que criam a própria engine
+
+
+instalar via prompt 
+dotnet new install MonoGame.Templates.CSharp
+
+O jogo se movimenta em frames
+
+.vsidx
+
+=============== [24/02/2024 segunda] ===============
+
+
+Site Projeto Final:
+https://mnemosyne-omega.vercel.app/home
+
+
+ORM Ferramentas que permitem comunicação entre o código e o BD, em nosso caso eh o Entity Framework
+
+CRUD
+
+=============== [25/02/2024 terca] ===============
+
+

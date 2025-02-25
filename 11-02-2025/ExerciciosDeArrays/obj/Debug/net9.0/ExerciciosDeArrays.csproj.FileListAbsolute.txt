@@ -1,0 +1,14 @@
+C:\Users\Fic\source\repos\ExerciciosDeArrays\obj\Debug\net9.0\ExerciciosDeArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fic\source\repos\ExerciciosDeArrays\obj\Debug\net9.0\ExerciciosDeArrays.AssemblyInfoInputs.cache
+C:\Users\Fic\source\repos\ExerciciosDeArrays\obj\Debug\net9.0\ExerciciosDeArrays.AssemblyInfo.cs
+C:\Users\Fic\source\repos\ExerciciosDeArrays\obj\Debug\net9.0\ExerciciosDeArrays.csproj.CoreCompileInputs.cache
+C:\Users\Fic\source\repos\ExerciciosDeArrays\bin\Debug\net9.0\ExerciciosDeArrays.exe
+C:\Users\Fic\source\repos\ExerciciosDeArrays\bin\Debug\net9.0\ExerciciosDeArrays.deps.json
+C:\Users\Fic\source\repos\ExerciciosDeArrays\bin\Debug\net9.0\ExerciciosDeArrays.runtimeconfig.json
+C:\Users\Fic\source\repos\ExerciciosDeArrays\bin\Debug\net9.0\ExerciciosDeArrays.dll
+C:\Users\Fic\source\repos\ExerciciosDeArrays\bin\Debug\net9.0\ExerciciosDeArrays.pdb
+C:\Users\Fic\source\repos\ExerciciosDeArrays\obj\Debug\net9.0\ExerciciosDeArrays.dll
+C:\Users\Fic\source\repos\ExerciciosDeArrays\obj\Debug\net9.0\refint\ExerciciosDeArrays.dll
+C:\Users\Fic\source\repos\ExerciciosDeArrays\obj\Debug\net9.0\ExerciciosDeArrays.pdb
+C:\Users\Fic\source\repos\ExerciciosDeArrays\obj\Debug\net9.0\ExerciciosDeArrays.genruntimeconfig.cache
+C:\Users\Fic\source\repos\ExerciciosDeArrays\obj\Debug\net9.0\ref\ExerciciosDeArrays.dll

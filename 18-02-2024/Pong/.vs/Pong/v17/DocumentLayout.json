@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\18-02-2024\\Pong\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA72EC7E-5E55-479C-B617-518874306F6A}|Pong.csproj|c:\\users\\fic\\downloads\\cris\\repos\\18-02-2024\\pong\\entidades\\raquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA72EC7E-5E55-479C-B617-518874306F6A}|Pong.csproj|solutionrelative:entidades\\raquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA72EC7E-5E55-479C-B617-518874306F6A}|Pong.csproj|c:\\users\\fic\\downloads\\cris\\repos\\18-02-2024\\pong\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA72EC7E-5E55-479C-B617-518874306F6A}|Pong.csproj|solutionrelative:global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA72EC7E-5E55-479C-B617-518874306F6A}|Pong.csproj|c:\\users\\fic\\downloads\\cris\\repos\\18-02-2024\\pong\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA72EC7E-5E55-479C-B617-518874306F6A}|Pong.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA72EC7E-5E55-479C-B617-518874306F6A}|Pong.csproj|c:\\users\\fic\\downloads\\cris\\repos\\18-02-2024\\pong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA72EC7E-5E55-479C-B617-518874306F6A}|Pong.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\18-02-2024\\Pong\\Game1.cs",
+              "RelativeDocumentMoniker": "Game1.cs",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\18-02-2024\\Pong\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDcAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:28:58.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Raquete.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\18-02-2024\\Pong\\Entidades\\Raquete.cs",
+              "RelativeDocumentMoniker": "Entidades\\Raquete.cs",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\18-02-2024\\Pong\\Entidades\\Raquete.cs",
+              "RelativeToolTip": "Entidades\\Raquete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:14:17.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Global.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\18-02-2024\\Pong\\Global.cs",
+              "RelativeDocumentMoniker": "Global.cs",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\18-02-2024\\Pong\\Global.cs",
+              "RelativeToolTip": "Global.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:07:48.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\18-02-2024\\Pong\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\18-02-2024\\Pong\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:04:28.426Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

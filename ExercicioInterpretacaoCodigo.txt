@@ -1,0 +1,180 @@
+[01 - Cálculo de CNPJ]
+
+* Variáveis:
+
+Array/Vetor
+	int[] multiplicador1 = new int[12] {5,4,3,2,9,8,7,6,5,4,3,2};
+	int[] multiplicador2 = new int[13] {6,5,4,3,2,9,8,7,6,5,4,3,2};
+
+Inteira
+	int soma;
+	int resto;
+
+String
+	string digito;
+	string tempCnpj;
+
+
+
+
+* Constantes
+?????????????
+
+
+* Métodos
+
+	cnpj = cnpj.Trim();
+	cnpj = cnpj.Replace(".", "").Replace("-", "").Replace("/", "");
+
+
+* Estrutura Condicional Simples
+	
+	if (cnpj.Length != 14)
+			   return false;
+
+
+
+
+* Estrutura Condicional Composta
+
+	if ( resto < 2)
+		resto = 0;
+	else
+		resto = 11 - resto;
+
+
+	if ( resto < 2)
+		resto = 0;
+	else
+		resto = 11 - resto;
+
+
+* Laços de repetição
+
+	for(int i=0; i<12; i++)
+		soma += int.Parse(tempCnpj[i].ToString()) * multiplicador1[i];
+	resto = (soma % 11);
+
+
+	for (int i = 0; i < 13; i++)
+		soma += int.Parse(tempCnpj[i].ToString()) * multiplicador2[i];
+	resto = (soma % 11);
+
+
+
+
+* Operadores lógicos
+
+
+
+
+
+[02 - Sequência Fibonacci]
+
+
+* Variáveis:
+
+Array/Vetor
+	
+
+Inteira
+	int numeroAnterior = 0;
+	int numeroAtual = 1;
+	int novoNumero;
+	int fibonacci;
+
+String
+
+
+
+* Constantes
+?????????????
+
+
+* Métodos
+
+
+* Estrutura Condicional Simples
+	
+
+* Estrutura Condicional Composta
+
+
+
+* Laços de repetição
+
+	 for (int i = 0; i <100;  i++ )
+	 	{  
+	       		fibonacci = numeroAnterior + numeroAtual;
+	       		Console.WriteLine  (fibonacci);
+	       		numeroAnterior = numeroAtual;
+	       		numeroAtual = fibonacci;   
+	  	}
+
+
+
+* Operadores lógicos
+
+	
+
+
+
+
+
+
+
+[03 - Jogo Forca]
+
+* Variáveis:
+
+Array/Vetor
+	xxxxxx
+
+
+Inteira
+	xxxx
+	xxxx
+
+String
+	xxxx
+	xxx
+
+
+
+* Constantes
+?????????????
+
+
+* Métodos
+
+	xxxx
+	xxxx
+
+
+* Estrutura Condicional Simples
+	
+	xxxxx
+			   
+
+
+
+
+* Estrutura Condicional Composta
+
+	xxxxx
+
+
+
+
+* Laços de repetição
+
+	xxxxx
+
+
+
+* Operadores lógicos
+
+	xxxxxx
+
+
+

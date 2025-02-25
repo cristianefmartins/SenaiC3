@@ -1,0 +1,14 @@
+C:\Users\Fic\source\repos\ExerciciosFuncoes\bin\Debug\net9.0\ExerciciosFuncoes.exe
+C:\Users\Fic\source\repos\ExerciciosFuncoes\bin\Debug\net9.0\ExerciciosFuncoes.deps.json
+C:\Users\Fic\source\repos\ExerciciosFuncoes\bin\Debug\net9.0\ExerciciosFuncoes.runtimeconfig.json
+C:\Users\Fic\source\repos\ExerciciosFuncoes\bin\Debug\net9.0\ExerciciosFuncoes.dll
+C:\Users\Fic\source\repos\ExerciciosFuncoes\bin\Debug\net9.0\ExerciciosFuncoes.pdb
+C:\Users\Fic\source\repos\ExerciciosFuncoes\obj\Debug\net9.0\ExerciciosFuncoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fic\source\repos\ExerciciosFuncoes\obj\Debug\net9.0\ExerciciosFuncoes.AssemblyInfoInputs.cache
+C:\Users\Fic\source\repos\ExerciciosFuncoes\obj\Debug\net9.0\ExerciciosFuncoes.AssemblyInfo.cs
+C:\Users\Fic\source\repos\ExerciciosFuncoes\obj\Debug\net9.0\ExerciciosFuncoes.csproj.CoreCompileInputs.cache
+C:\Users\Fic\source\repos\ExerciciosFuncoes\obj\Debug\net9.0\ExerciciosFuncoes.dll
+C:\Users\Fic\source\repos\ExerciciosFuncoes\obj\Debug\net9.0\refint\ExerciciosFuncoes.dll
+C:\Users\Fic\source\repos\ExerciciosFuncoes\obj\Debug\net9.0\ExerciciosFuncoes.pdb
+C:\Users\Fic\source\repos\ExerciciosFuncoes\obj\Debug\net9.0\ExerciciosFuncoes.genruntimeconfig.cache
+C:\Users\Fic\source\repos\ExerciciosFuncoes\obj\Debug\net9.0\ref\ExerciciosFuncoes.dll

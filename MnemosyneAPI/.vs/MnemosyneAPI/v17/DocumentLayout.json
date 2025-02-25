@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fic\\Downloads\\Cris\\MnemosyneAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|c:\\users\\fic\\downloads\\cris\\mnemosyneapi\\mnemosyneapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|solutionrelative:mnemosyneapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|c:\\users\\fic\\downloads\\cris\\mnemosyneapi\\context\\memorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|solutionrelative:context\\memorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|c:\\users\\fic\\downloads\\cris\\mnemosyneapi\\model\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|solutionrelative:model\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|c:\\users\\fic\\downloads\\cris\\mnemosyneapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemoryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\MnemosyneAPI\\Context\\MemoryDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\MemoryDbContext.cs",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\MnemosyneAPI\\Context\\MemoryDbContext.cs",
+              "RelativeToolTip": "Context\\MemoryDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T00:46:46.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Memory.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\MnemosyneAPI\\Model\\Memory.cs",
+              "RelativeDocumentMoniker": "Model\\Memory.cs",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\MnemosyneAPI\\Model\\Memory.cs",
+              "RelativeToolTip": "Model\\Memory.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T00:32:58.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MnemosyneAPI",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\MnemosyneAPI\\MnemosyneAPI.csproj",
+              "RelativeDocumentMoniker": "MnemosyneAPI.csproj",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\MnemosyneAPI\\MnemosyneAPI.csproj",
+              "RelativeToolTip": "MnemosyneAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T00:31:03.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\MnemosyneAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\MnemosyneAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T00:14:16.293Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

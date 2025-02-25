@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fic\\source\\repos\\ExerciciosFuncoes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B947011C-09B5-4B80-A276-A7E8FE16C130}|ExerciciosFuncoes.csproj|c:\\users\\fic\\source\\repos\\exerciciosfuncoes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B947011C-09B5-4B80-A276-A7E8FE16C130}|ExerciciosFuncoes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\source\\repos\\ExerciciosFuncoes\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Fic\\source\\repos\\ExerciciosFuncoes\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAIwMgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T22:13:23.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

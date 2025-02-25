@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\14-02-2025\\ProjetoPOO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC6E147-F49A-4EB0-86BB-03ACA5A50402}|ProjetoPOO.csproj|c:\\users\\fic\\downloads\\cris\\repos\\14-02-2025\\projetopoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC6E147-F49A-4EB0-86BB-03ACA5A50402}|ProjetoPOO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC6E147-F49A-4EB0-86BB-03ACA5A50402}|ProjetoPOO.csproj|c:\\users\\fic\\downloads\\cris\\repos\\14-02-2025\\projetopoo\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC6E147-F49A-4EB0-86BB-03ACA5A50402}|ProjetoPOO.csproj|solutionrelative:pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC6E147-F49A-4EB0-86BB-03ACA5A50402}|ProjetoPOO.csproj|c:\\users\\fic\\downloads\\cris\\repos\\14-02-2025\\projetopoo\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC6E147-F49A-4EB0-86BB-03ACA5A50402}|ProjetoPOO.csproj|solutionrelative:calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC6E147-F49A-4EB0-86BB-03ACA5A50402}|ProjetoPOO.csproj|c:\\users\\fic\\downloads\\cris\\repos\\14-02-2025\\projetopoo\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC6E147-F49A-4EB0-86BB-03ACA5A50402}|ProjetoPOO.csproj|solutionrelative:aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\14-02-2025\\ProjetoPOO\\Aluno.cs",
+              "RelativeDocumentMoniker": "Aluno.cs",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\14-02-2025\\ProjetoPOO\\Aluno.cs",
+              "RelativeToolTip": "Aluno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T00:08:40.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculadora.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\14-02-2025\\ProjetoPOO\\Calculadora.cs",
+              "RelativeDocumentMoniker": "Calculadora.cs",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\14-02-2025\\ProjetoPOO\\Calculadora.cs",
+              "RelativeToolTip": "Calculadora.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T23:17:08.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\14-02-2025\\ProjetoPOO\\Pessoa.cs",
+              "RelativeDocumentMoniker": "Pessoa.cs",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\14-02-2025\\ProjetoPOO\\Pessoa.cs",
+              "RelativeToolTip": "Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T23:02:20.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\14-02-2025\\ProjetoPOO\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\repos\\14-02-2025\\ProjetoPOO\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T22:41:28.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

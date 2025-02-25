@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fic\\source\\repos\\ProjetoCelular\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D422AF2-C30F-48BF-9D71-3FC80A5A012E}|ProjetoCelular.csproj|c:\\users\\fic\\source\\repos\\projetocelular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D422AF2-C30F-48BF-9D71-3FC80A5A012E}|ProjetoCelular.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D422AF2-C30F-48BF-9D71-3FC80A5A012E}|ProjetoCelular.csproj|c:\\users\\fic\\source\\repos\\projetocelular\\celular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D422AF2-C30F-48BF-9D71-3FC80A5A012E}|ProjetoCelular.csproj|solutionrelative:celular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Celular.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\source\\repos\\ProjetoCelular\\Celular.cs",
+              "RelativeDocumentMoniker": "Celular.cs",
+              "ToolTip": "C:\\Users\\Fic\\source\\repos\\ProjetoCelular\\Celular.cs",
+              "RelativeToolTip": "Celular.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T00:26:22.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\source\\repos\\ProjetoCelular\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Fic\\source\\repos\\ProjetoCelular\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T00:23:03.71Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
