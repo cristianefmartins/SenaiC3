@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using MnemosyneAPI.Context;
 using MnemosyneAPI.Model;
+using FluentValidation;
 
 namespace MnemosyneAPI.Endpoint
 {
@@ -14,7 +15,7 @@ namespace MnemosyneAPI.Endpoint
             app.MapGet("/memories", async (MemoryDbContext db) =>
             {
                 //await: o sistema continua executando outras atividades enquanto a lista esta sendo buscada
-                 await db.Memories.ToListAsync();
+                 return await db.Memories.ToListAsync();
 
             });
 
@@ -31,25 +32,36 @@ namespace MnemosyneAPI.Endpoint
 
             //Cadastrar memory
             //[Roles="Administrador"] autentificacao, nao vamos implementar
-            app.MapPost("/memories", async (Memory memory, MemoryDbContext db) =>
+            app.MapPost("/memories", async (Memory memory, IValidator<Memory> validator, MemoryDbContext db) =>
             {
-                if (memory != null)
-                {
-                    db.Memories.Add(memory);
-                    await db.SaveChangesAsync();
-                    return Results.Created($"/memories/{memory.Id}", memory);
-                }
-                return Results.BadRequest("Requisição Inválida!");
+               if (memory == null) return Results.BadRequest("Requisição Inválida!");
+
+
+               //as proximas 2 linhas estao relacionados com os validators
+                var validation = await validator.ValidateAsync(memory);
+
+                //esse IsValid eh um boolean. Exclamacao eh sinal de exclimacao. Se a validacao nao for valida
+                if (!validation.IsValid) return Results.ValidationProblem(validation.ToDictionary());
+      
+                db.Memories.Add(memory);
+                await db.SaveChangesAsync();
+                return Results.Created($"/memories/{memory.Id}", memory);
             })
                 .Produces<Memory>(StatusCodes.Status201Created)
                 .Produces(StatusCodes.Status400BadRequest);
 
 
             //Editar memory
-            app.MapPut("/memories/{id}", async (int id, Memory memory, MemoryDbContext db) =>
+            app.MapPut("/memories/{id}", async (int id, Memory memory, IValidator<Memory> validator, MemoryDbContext db) =>
             {
                 var memoryFound = await db.Memories.FindAsync(id);
                 if (memoryFound is null) return Results.NotFound();
+
+                //as proximas 2 linhas estao relacionados com os validators
+                var validation = await validator.ValidateAsync(memory);
+
+                //esse IsValid eh um boolean. Exclamacao eh sinal de exclimacao. Se a validacao nao for valida
+                if (!validation.IsValid) return Results.ValidationProblem(validation.ToDictionary());
 
                 memoryFound.Title = memory.Title;
                 memoryFound.Description = memory.Description;

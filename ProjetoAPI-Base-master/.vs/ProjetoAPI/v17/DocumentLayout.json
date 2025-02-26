@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{735B8891-09EB-4526-8962-32E8DE08DCB8}|ProjetoAPI.csproj|solutionrelative:validators\\produtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{735B8891-09EB-4526-8962-32E8DE08DCB8}|ProjetoAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\projetoapi-base-master\\context\\produtosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{735B8891-09EB-4526-8962-32E8DE08DCB8}|ProjetoAPI.csproj|solutionrelative:context\\produtosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{735B8891-09EB-4526-8962-32E8DE08DCB8}|ProjetoAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\projetoapi-base-master\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{735B8891-09EB-4526-8962-32E8DE08DCB8}|ProjetoAPI.csproj|solutionrelative:model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{735B8891-09EB-4526-8962-32E8DE08DCB8}|ProjetoAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\projetoapi-base-master\\context\\produtosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{735B8891-09EB-4526-8962-32E8DE08DCB8}|ProjetoAPI.csproj|solutionrelative:context\\produtosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{735B8891-09EB-4526-8962-32E8DE08DCB8}|ProjetoAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\projetoapi-base-master\\endpoints\\produtosendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProdutosDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Fic\\Desktop\\SenaiC3\\ProjetoAPI-Base-master\\Context\\ProdutosDbContext.cs",
               "RelativeDocumentMoniker": "Context\\ProdutosDbContext.cs",
@@ -43,15 +43,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\Fic\\Desktop\\SenaiC3\\ProjetoAPI-Base-master\\Model\\Produto.cs",
               "RelativeDocumentMoniker": "Model\\Produto.cs",
               "ToolTip": "C:\\Users\\Fic\\Desktop\\SenaiC3\\ProjetoAPI-Base-master\\Model\\Produto.cs",
               "RelativeToolTip": "Model\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T22:23:31.39Z"
+              "WhenOpened": "2025-02-25T22:23:31.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,7 +62,7 @@
               "RelativeDocumentMoniker": "Validators\\ProdutoValidator.cs",
               "ToolTip": "C:\\Users\\Fic\\Desktop\\SenaiC3\\ProjetoAPI-Base-master\\Validators\\ProdutoValidator.cs",
               "RelativeToolTip": "Validators\\ProdutoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T22:19:02.931Z",
               "EditorCaption": ""

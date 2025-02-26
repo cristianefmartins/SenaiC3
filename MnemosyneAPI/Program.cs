@@ -2,6 +2,11 @@ using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using MnemosyneAPI.Context;
 using MnemosyneAPI.Endpoint;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using MnemosyneAPI.Validators;
+using System.ComponentModel.DataAnnotations;
+using MnemosyneAPI.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,8 +27,12 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddDbContext<MemoryDbContext>(options =>
     options.UseSqlite("Data Source=memories.db"));
 
+// Adiciona o FluentValidation
+builder.Services.AddValidatorsFromAssemblyContaining<MemoryValidator>();
+
 
 var app = builder.Build();
+
 // Ativa o Swagger na aplicação
 if (app.Environment.IsDevelopment())
 {
@@ -35,5 +44,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.MapMemoriesEndpoints();
+
 
 app.Run();

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Fic\\Desktop\\SenaiC3\\MnemosyneAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\mnemosyneapi\\validators\\memoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|solutionrelative:validators\\memoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\mnemosyneapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\mnemosyneapi\\endpoint\\memoriesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|solutionrelative:endpoint\\memoriesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\mnemosyneapi\\validators\\memoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|solutionrelative:validators\\memoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E786A6E5-F193-4DE8-A7EF-B15862480754}|MnemosyneAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\mnemosyneapi\\model\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,30 +30,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MemoryValidator.cs",
               "DocumentMoniker": "C:\\Users\\Fic\\Desktop\\SenaiC3\\MnemosyneAPI\\Validators\\MemoryValidator.cs",
               "RelativeDocumentMoniker": "Validators\\MemoryValidator.cs",
               "ToolTip": "C:\\Users\\Fic\\Desktop\\SenaiC3\\MnemosyneAPI\\Validators\\MemoryValidator.cs",
               "RelativeToolTip": "Validators\\MemoryValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T00:36:33.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MemoriesEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\Fic\\Desktop\\SenaiC3\\MnemosyneAPI\\Endpoint\\MemoriesEndpoints.cs",
               "RelativeDocumentMoniker": "Endpoint\\MemoriesEndpoints.cs",
               "ToolTip": "C:\\Users\\Fic\\Desktop\\SenaiC3\\MnemosyneAPI\\Endpoint\\MemoriesEndpoints.cs",
               "RelativeToolTip": "Endpoint\\MemoriesEndpoints.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAQwAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwDsAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T22:51:23.303Z",
               "EditorCaption": ""
@@ -78,19 +78,20 @@
               "RelativeDocumentMoniker": "Model\\Memory.cs",
               "ToolTip": "C:\\Users\\Fic\\Desktop\\SenaiC3\\MnemosyneAPI\\Model\\Memory.cs",
               "RelativeToolTip": "Model\\Memory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T00:32:58.67Z"
+              "WhenOpened": "2025-02-25T00:32:58.67Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Fic\\Desktop\\SenaiC3\\MnemosyneAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Fic\\Desktop\\SenaiC3\\MnemosyneAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T00:14:16.293Z",
               "EditorCaption": ""
