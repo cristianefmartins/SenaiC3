@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Fic\\Downloads\\Cris\\20-02-2024_Backend\\ProjetoAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Fic\\Desktop\\SenaiC3\\20-02-2024_Backend\\ProjetoAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|c:\\users\\fic\\downloads\\cris\\20-02-2024_backend\\projetoapi\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|solutionrelative:model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|c:\\users\\fic\\downloads\\cris\\20-02-2024_backend\\projetoapi\\context\\produtodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|solutionrelative:context\\produtodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|c:\\users\\fic\\downloads\\cris\\20-02-2024_backend\\projetoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|c:\\users\\fic\\downloads\\cris\\20-02-2024_backend\\projetoapi\\endpoints\\produtosendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\20-02-2024_backend\\projetoapi\\endpoints\\produtosendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|solutionrelative:endpoints\\produtosendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|c:\\users\\fic\\downloads\\cris\\20-02-2024_backend\\projetoapi\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|solutionrelative:repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\20-02-2024_backend\\projetoapi\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|solutionrelative:model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\20-02-2024_backend\\projetoapi\\context\\produtodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|solutionrelative:context\\produtodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|c:\\users\\fic\\desktop\\senaic3\\20-02-2024_backend\\projetoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1449EEE2-61DB-423D-AA7D-9CED4B105576}|ProjetoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\20-02-2024_Backend\\ProjetoAPI\\Model\\Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Desktop\\SenaiC3\\20-02-2024_Backend\\ProjetoAPI\\Model\\Produto.cs",
               "RelativeDocumentMoniker": "Model\\Produto.cs",
-              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\20-02-2024_Backend\\ProjetoAPI\\Model\\Produto.cs",
+              "ToolTip": "C:\\Users\\Fic\\Desktop\\SenaiC3\\20-02-2024_Backend\\ProjetoAPI\\Model\\Produto.cs",
               "RelativeToolTip": "Model\\Produto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -47,51 +43,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProdutosEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\20-02-2024_Backend\\ProjetoAPI\\Endpoints\\ProdutosEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Desktop\\SenaiC3\\20-02-2024_Backend\\ProjetoAPI\\Endpoints\\ProdutosEndpoints.cs",
               "RelativeDocumentMoniker": "Endpoints\\ProdutosEndpoints.cs",
-              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\20-02-2024_Backend\\ProjetoAPI\\Endpoints\\ProdutosEndpoints.cs",
+              "ToolTip": "C:\\Users\\Fic\\Desktop\\SenaiC3\\20-02-2024_Backend\\ProjetoAPI\\Endpoints\\ProdutosEndpoints.cs",
               "RelativeToolTip": "Endpoints\\ProdutosEndpoints.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwAgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T23:26:55.29Z"
+              "WhenOpened": "2025-02-24T23:26:55.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Desktop\\SenaiC3\\20-02-2024_Backend\\ProjetoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Fic\\Desktop\\SenaiC3\\20-02-2024_Backend\\ProjetoAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T22:57:24.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\20-02-2024_Backend\\ProjetoAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\20-02-2024_Backend\\ProjetoAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T22:57:24.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ProdutoDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\20-02-2024_Backend\\ProjetoAPI\\Context\\ProdutoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Fic\\Desktop\\SenaiC3\\20-02-2024_Backend\\ProjetoAPI\\Context\\ProdutoDbContext.cs",
               "RelativeDocumentMoniker": "Context\\ProdutoDbContext.cs",
-              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\20-02-2024_Backend\\ProjetoAPI\\Context\\ProdutoDbContext.cs",
+              "ToolTip": "C:\\Users\\Fic\\Desktop\\SenaiC3\\20-02-2024_Backend\\ProjetoAPI\\Context\\ProdutoDbContext.cs",
               "RelativeToolTip": "Context\\ProdutoDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T22:46:37.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdutoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Fic\\Downloads\\Cris\\20-02-2024_Backend\\ProjetoAPI\\Repository\\ProdutoRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProdutoRepository.cs",
-              "ToolTip": "C:\\Users\\Fic\\Downloads\\Cris\\20-02-2024_Backend\\ProjetoAPI\\Repository\\ProdutoRepository.cs",
-              "RelativeToolTip": "Repository\\ProdutoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T00:35:24.84Z"
+              "WhenOpened": "2025-02-21T22:46:37.485Z",
+              "EditorCaption": ""
             }
           ]
         }
