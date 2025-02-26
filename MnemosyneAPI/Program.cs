@@ -1,6 +1,7 @@
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using MnemosyneAPI.Context;
+using MnemosyneAPI.Endpoint;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,5 +34,6 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+app.MapMemoriesEndpoints();
 
 app.Run();

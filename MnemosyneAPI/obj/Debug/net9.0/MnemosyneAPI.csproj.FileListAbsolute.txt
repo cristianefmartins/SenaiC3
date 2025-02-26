@@ -314,3 +314,7 @@ C:\Users\Fic\Desktop\SenaiC3\MnemosyneAPI\obj\Debug\net9.0\refint\MnemosyneAPI.d
 C:\Users\Fic\Desktop\SenaiC3\MnemosyneAPI\obj\Debug\net9.0\MnemosyneAPI.pdb
 C:\Users\Fic\Desktop\SenaiC3\MnemosyneAPI\obj\Debug\net9.0\MnemosyneAPI.genruntimeconfig.cache
 C:\Users\Fic\Desktop\SenaiC3\MnemosyneAPI\obj\Debug\net9.0\ref\MnemosyneAPI.dll
+C:\Users\Fic\Desktop\SenaiC3\MnemosyneAPI\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\Fic\Desktop\SenaiC3\MnemosyneAPI\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+C:\Users\Fic\Desktop\SenaiC3\MnemosyneAPI\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Fic\Desktop\SenaiC3\MnemosyneAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

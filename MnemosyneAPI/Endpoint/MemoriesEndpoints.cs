@@ -65,14 +65,14 @@ namespace MnemosyneAPI.Endpoint
 
 
             //Deletar memory
-            app.MapDelete("/memories/{id}", async (Guid id, MemoryDbContext db) =>
+            app.MapDelete("/memories/{id}", async (int id, MemoryDbContext db) =>
             {
-                var memoryEncontrada = await db.Memories.FindAsync(id);
-                if (memoryEncontrada is null) return Results.NotFound();
+                var memoryFound = await db.Memories.FindAsync(id);
+                if (memoryFound is null) return Results.NotFound();
 
-                db.Memories.Remove(memoryEncontrada);
+                db.Memories.Remove(memoryFound);
                 await db.SaveChangesAsync();
-                return Results.Ok(memoryEncontrada);
+                return Results.Ok(memoryFound);
             })
                 .Produces<Memory>(StatusCodes.Status200OK)
                 .Produces(StatusCodes.Status404NotFound);
