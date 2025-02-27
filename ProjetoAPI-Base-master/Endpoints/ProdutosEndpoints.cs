@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using ProjetoAPI.Context;
+using ProjetoAPI.DTO;
 using ProjetoAPI.Model;
 using System.ComponentModel.DataAnnotations;
 
@@ -11,7 +12,8 @@ namespace ProjetoAPI.Endpoints
         public static void MapProdutosEndpoints(this WebApplication app)
         {
             app.MapGet("/produtos", async (ProdutosDbContext db) =>
-            await db.Produtos.ToListAsync());
+            //traz a descricao da categoria
+            await db.Produtos.Include(x => x.Categoria).ToListAsync());
 
             app.MapGet("/produtos/{id}", async (Guid id, ProdutosDbContext db) =>
                 await db.Produtos.FindAsync(id)
@@ -23,19 +25,30 @@ namespace ProjetoAPI.Endpoints
             .Produces<Produto>(StatusCodes.Status200OK)
             .Produces(StatusCodes.Status404NotFound);
 
-            app.MapPost("/produtos", async (Produto prod, IValidator<Produto> validator, ProdutosDbContext db) =>
+
+            app.MapPost("/produtos", async (ProdutoDto prod, IValidator<Produto> validator, ProdutosDbContext db) =>
             {
                 if (prod != null)
                 {
+
+                    //pra cadastrar no banco eu preciso de cadastrar um Produto e nao um ProdutoDto
+                    var produto = new Produto()
+                    {
+                        Nome = prod.Nome,
+                        Valor = prod.Valor,
+                        Descricao = prod.Descricao,
+                        CategoriaId = prod.CategoriaId, 
+                    };
+
                     // Validando no Cadastro 
-                    var validation = await validator.ValidateAsync(prod);
+                    var validation = await validator.ValidateAsync(produto);
 
                     if (!validation.IsValid) return Results.ValidationProblem(validation.ToDictionary());
 
-                    db.Produtos.Add(prod);
+                    db.Produtos.Add(produto);
                     await db.SaveChangesAsync();
 
-                    return Results.Created($"/produtos/{prod.Id}", prod);
+                    return Results.Created($"/produtos/{produto.Id}", produto);
                 }
                 else
                 {
@@ -45,6 +58,7 @@ namespace ProjetoAPI.Endpoints
             //Essa eh a documentacao que aparece no swagger, dizendo o que esse endpoint pode retornar
             .Produces(StatusCodes.Status400BadRequest)
             .Produces<Produto>(StatusCodes.Status201Created);
+
 
             app.MapPut("/produtos/{id}", async (Guid id, Produto produto, IValidator<Produto> validator, ProdutosDbContext db) =>
             {
@@ -57,7 +71,9 @@ namespace ProjetoAPI.Endpoints
                 if (produtoEncontrado is null) return Results.NotFound();
 
                 produtoEncontrado.Nome = produto.Nome;
-                produtoEncontrado.Categoria = produto.Categoria;
+                produtoEncontrado.Valor = produto.Valor;
+                produtoEncontrado.Descricao = produto.Descricao;
+                produtoEncontrado.CategoriaId = produto.CategoriaId;
 
                 await db.SaveChangesAsync();
 
@@ -67,6 +83,7 @@ namespace ProjetoAPI.Endpoints
             .Produces(StatusCodes.Status204NoContent)
             .Produces(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status404NotFound);
+
 
             app.MapDelete("/produtos/{id}", async (Guid id, ProdutosDbContext db) =>
             {

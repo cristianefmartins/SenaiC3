@@ -203,4 +203,126 @@ CRUD
 
 https://docs.fluentvalidation.net/en/latest/built-in-validators.html
 
+* Cada model eh uma tabela do banco
 
+* DTO - Data transfer object
+
+
+
+
+C:\Users\Fic\Desktop\SenaiC3\ProjetoAPI-Base-master>dotnet ef database update
+Build started...
+Build succeeded.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      PRAGMA journal_mode = 'wal';
+info: Microsoft.EntityFrameworkCore.Migrations[20411]
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsLock' AND "type" = 'table';
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE IF NOT EXISTS "__EFMigrationsLock" (
+          "Id" INTEGER NOT NULL CONSTRAINT "PK___EFMigrationsLock" PRIMARY KEY,
+          "Timestamp" TEXT NOT NULL
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT OR IGNORE INTO "__EFMigrationsLock"("Id", "Timestamp") VALUES(1, '2025-02-27 00:14:34.345748+00:00');
+      SELECT changes();
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+          "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+          "ProductVersion" TEXT NOT NULL
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "MigrationId", "ProductVersion"
+      FROM "__EFMigrationsHistory"
+      ORDER BY "MigrationId";
+info: Microsoft.EntityFrameworkCore.Migrations[20402]
+      Applying migration '20250221172919_Inicial'.
+Applying migration '20250221172919_Inicial'.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Produtos" (
+          "Id" TEXT NOT NULL CONSTRAINT "PK_Produtos" PRIMARY KEY,
+          "Nome" TEXT NULL,
+          "Categoria" TEXT NULL
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+      VALUES ('20250221172919_Inicial', '9.0.2');
+info: Microsoft.EntityFrameworkCore.Migrations[20402]
+      Applying migration '20250227001248_CategoriaMigration'.
+Applying migration '20250227001248_CategoriaMigration'.
+warn: Microsoft.EntityFrameworkCore.Migrations[20410]
+      The migration operation 'PRAGMA foreign_keys = 0;
+      ' from migration 'CategoriaMigration' cannot be executed in a transaction. If the app is terminated or an unrecoverable error occurs while this operation is being executed then the migration will be left in a partially applied state and would need to be reverted manually before it can be applied again. Create a separate migration that contains just this operation.
+The migration operation 'PRAGMA foreign_keys = 0;
+' from migration 'CategoriaMigration' cannot be executed in a transaction. If the app is terminated or an unrecoverable error occurs while this operation is being executed then the migration will be left in a partially applied state and would need to be reverted manually before it can be applied again. Create a separate migration that contains just this operation.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER TABLE "Produtos" ADD "CategoriaId" INTEGER NOT NULL DEFAULT 0;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER TABLE "Produtos" ADD "Descricao" TEXT NOT NULL DEFAULT '';
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER TABLE "Produtos" ADD "Valor" REAL NOT NULL DEFAULT 0.0;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Categorias" (
+          "Id" INTEGER NOT NULL CONSTRAINT "PK_Categorias" PRIMARY KEY AUTOINCREMENT,
+          "Nome" TEXT NOT NULL
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Produtos_CategoriaId" ON "Produtos" ("CategoriaId");
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "ef_temp_Produtos" (
+          "Id" TEXT NOT NULL CONSTRAINT "PK_Produtos" PRIMARY KEY,
+          "CategoriaId" INTEGER NOT NULL,
+          "Descricao" TEXT NOT NULL,
+          "Nome" TEXT NULL,
+          "Valor" REAL NOT NULL,
+          CONSTRAINT "FK_Produtos_Categorias_CategoriaId" FOREIGN KEY ("CategoriaId") REFERENCES "Categorias" ("Id") ON DELETE CASCADE
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "ef_temp_Produtos" ("Id", "CategoriaId", "Descricao", "Nome", "Valor")
+      SELECT "Id", "CategoriaId", "Descricao", "Nome", "Valor"
+      FROM "Produtos";
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      PRAGMA foreign_keys = 0;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      DROP TABLE "Produtos";
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER TABLE "ef_temp_Produtos" RENAME TO "Produtos";
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      PRAGMA foreign_keys = 1;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Produtos_CategoriaId" ON "Produtos" ("CategoriaId");
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+      VALUES ('20250227001248_CategoriaMigration', '9.0.2');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      DELETE FROM "__EFMigrationsLock";
+Done.
+
+C:\Users\Fic\Desktop\SenaiC3\ProjetoAPI-Base-master>dotnet ef migrations add CategoriaMigration

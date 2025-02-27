@@ -38,6 +38,8 @@ if (app.Environment.IsDevelopment())
 
 app.MapProdutosEndpoints();
 
+app.MapCategoriaEndpoints();
+
 app.UseHttpsRedirection();
 
 app.Run();
